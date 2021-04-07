@@ -1,0 +1,17 @@
+name: decision_behaviour
+description: Behaviour tree to drive decision process.
+version: 0.5.0
+repository: https://github.com/rayk/decision_ahnp
+documentation: https://rayk.github.io/decision_ahnp/
+publish_to: none
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  meta: ^1.3.0
+
+dev_dependencies:
+  lint: ^1.5.3
+  test: ^1.16.8
+ 
