@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'base.dart';
 
 /// Composite node that can have one or more children. They will process one or more of
@@ -19,7 +21,13 @@ abstract class Composite {}
 ///  ticked and the Sequence returns [NodeStatus.failure].
 /// - If all the children return [NodeStatus.success], then the Sequence returns
 /// [NodeStatus.success] too.
-class Sequence extends Composite implements Node {}
+class Sequence extends Composite implements Node {
+  @override
+  FutureOr<NodeStatus> tick() {
+    // TODO: implement tick
+    throw UnimplementedError();
+  }
+}
 
 /// Selector returns success if any one of it's children succeeds and stops
 /// processing it's other children as soon as it receives it first success.
@@ -34,4 +42,10 @@ class Sequence extends Composite implements Node {}
 /// and this selector returns [NodeStatus.success].
 /// - If all the children return [NodeStatus.failure], then this selector
 /// returns [NodeStatus.failure] too.
-class Selector extends Composite implements Node {}
+class Selector extends Composite implements Node {
+  @override
+  FutureOr<NodeStatus> tick() {
+    // TODO: implement tick
+    throw UnimplementedError();
+  }
+}
