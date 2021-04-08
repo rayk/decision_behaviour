@@ -1,3 +1,5 @@
+_Built to support:_ [Decision Playbook](https://github.com/rayk/decision_playbook)
+
 [![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
 
 # Decision Behaviour
