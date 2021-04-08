@@ -1,4 +1,4 @@
-name: Ahnp Push Check
+name: Behaviour Push Check
 on:
   push:
     branches:
