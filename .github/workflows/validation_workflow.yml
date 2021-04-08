@@ -1,4 +1,4 @@
-name: Push Validation
+name: Ahnp Push Check
 on:
   push:
     branches:
