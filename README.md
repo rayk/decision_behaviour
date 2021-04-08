@@ -1,6 +1,6 @@
 _Built to support:_ [Decision Playbook](https://github.com/rayk/decision_playbook)
 
-[![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
+[![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint) [![Push Validation](https://github.com/rayk/decision_behaviour/actions/workflows/validation_workflow.yml/badge.svg)](https://github.com/rayk/decision_behaviour/actions/workflows/validation_workflow.yml)
 
 # Decision Behaviour
 
